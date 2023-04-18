@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+.hidden{
+    display: hidden;
+}
+.visible{
+    display: block;
+}
+
+@tailwind utilities;

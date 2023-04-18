@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://fonts.cdnfonts.com/css/hm" rel="stylesheet">
+    <title>Landing Page </title>
+</head>
+<body bgcolor="#faf9f8" id="boi">
+    <!-- Navigation Bar -->
+
+    <header class="my-9 px-9">
+        <nav class="flex justify-between text-sm">
+            <div>
+                <ul class="flex space-x-8 items-center self-start"> 
+                    <li class="self-stretch"><a href="">Customer Service</a></li>
+                    <li class="self-stretch"><a href="">Newsletter</a></li>
+                    <li class="self-stretch"><a href="">Find a store</a></li>
+                    <li class="cursor-pointer self-stretch">
+                            <i class="uil uil-ellipsis-h text-2xl" id="show" onclick="toggleMenu()" ></i>
+                            <div class="absolute -mx-4 hidden" id="show1">
+                                <ul class="flex-col bg-white space-y-2 px-3 py-2 " > 
+                                    <li ><a href="" class="flex items-center">Download Android</a></li>
+                                    <li ><a href="" class="flex items-center">Download iOS</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    
+                </ul>
+               
+            </div>
+
+            <a href="#"><img src="resources/Logo.png.png" alt="Logo" class="w-[3.8rem] pt-2"></a>
+            <div>
+                <ul class="flex space-x-8 items-center"> 
+
+                    <li class="group relative ">
+                        <a href="" class=" flex items-center self-stretch hover:text-purple-900"><i class="uil uil-user pr-2  text-2xl"></i>Sign in
+                        <!-- menu -->
+                        <div class="group-hover:block absolute -mx-44 hidden shadow-md " id="signinshow">
+                            <ul class="flex-col bg-white space-y-2 px-6 py-5 " > 
+                                <button class="bg-black text-white px-20 py-4 justify-center font-bold hover:opacity-50">Sign In</button>
+                                <li ><a href="" class="flex items-center font-medium text-s pt-4"> My Account</a></li>
+                                <li ><a href="" class="flex items-center font-medium text-s">Membership Info</a></li>
+                                <li ><a href="" class="flex items-center font-thin text-xs">Not a member yet? Join here</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                        </a>
+                    <li ><a href="" class="flex items-center self-stretch"><i class="uil uil-heart pr-2 text-2xl"></i>Favourites</a></li>
+                    <li ><a href="" class="flex items-center self-stretch"><i class="uil uil-shopping-bag pr-2 text-2xl"></i>Shopping bag (0)</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Nav Option Menu  -->
+
+        <div class="mt-14">
+            <ul class="flex space-x-9 font-medium justify-center"> 
+                <li class="group relative">
+                    <a href="">Ladies</a>
+                    <div class="  hidden bg-[#faf9f8] z-1 group-hover:block absolute border-b-4 border-black">
+                        <div class=" mt-6 ml-6 pr-3 grid grid-cols-[5rem_5rem_5rem] gap-20 content-center ">
+                            
+                            <div class="text-xs ">
+                                <div class="">
+                                    <h1 class="font-bold">Member Exclusive Prices</h1>
+                                    <p class="py-2 font-medium"><a href="">Shop Now</a></p>
+                                </div>
+                                
+                                <div class="py-6">
+                                    <h1 class="font-bold">New Arrivals</h1>
+                                    <p class="py-2 font-medium"><a href="">View All</a></p>
+                                    <p class="py-2 font-medium"><a href="">Clothes</a></p>
+                                </div>
+                                <div class="py-6">
+                                    <h1 class="font-bold">Trending Now</h1>
+                                    <p class="py-2 font-medium"><a href="">Spring/Summer'23 Lookbook</a></p>
+                                    <p class="py-2 font-medium"><a href="">Online Exclusive</a></p>
+                                    <p class="py-2 font-medium"><a href="">Season's best bags from $70</a></p>
+                                    <p class="py-2 font-medium"><a href="">Fluid Fashion</a></p>
+                                    <p class="py-2 font-medium"><a href="">Summer Printed PJs</a></p>
+                                    <p class="py-2 font-medium"><a href="">Love for Linen</a></p>
+                                </div>
+                                <div class="py-6">
+                                    <h1 class="font-bold">Shop by Ocassion</h1>
+                                    <p class="py-2 font-medium"><a href="">Party Wear</a></p>
+                                    <p class="py-2 font-medium"><a href="">Casual Wear</a></p>
+                                    <p class="py-2 font-medium"><a href="">Office Wear</a></p>
+                                    <p class="py-2 font-medium"><a href="">LoungeWear</a></p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="text-xs ">
+                                <div class="">
+                                    <h1 class="font-bold">Shop by Product</h1>
+                                    <p class="py-[0.3rem] font-medium"><a href="">View All</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Dresses</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Shirt & Blouses</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Trousers</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Jeans</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Shorts</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Skirts</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Shoes</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Accessories</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Nightwear</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Swimwear & Beachwear</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Lingerie</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Sweatshirts & Hoodies</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Cardigans & Sweaters</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Knitwear</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Jackets & Coats</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Loungewear</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Sportswear</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Basics</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Jumpsuits</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Plus Sizes</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Socks & Tights</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Maternity Wear</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Premium Selection</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Care products</a></p>
+                                    <p class="py-[0.3rem] font-medium"><a href="">Sale</a></p>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="text-xs ">
+                                <div class="">
+                                    <h1 class="font-bold">Sustainability</h1>
+                                    <p class="py-2 font-medium"><a href="">H&M Take Care</a></p>
+                                    <p class="py-2 font-medium"><a href="">Learn More</a></p>
+                                </div>
+                                
+                                <div class="py-6">
+                                    <h1 class="font-bold">Magazine</h1>
+                                    <p class="py-2 font-medium"><a href="">Magazine</a></p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                     </div>
+                </li>    
+                 
+                
+                <li><a href="">Men</a></li>
+                <li><a href="">Divided</a></li>
+                <li><a href="">Baby</a></li>
+                <li><a href="">Kids</a></li>
+                <li><a href="">H&M HOME</a></li>
+                <li><a href="">Sport</a></li>
+                <li><a href="">Sale</a></li>
+                <li><a href="">Sustainability</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="my-9 px-9">
+        <img src="resources/1stback.jpg" alt="">
+
+    </main>
+
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
